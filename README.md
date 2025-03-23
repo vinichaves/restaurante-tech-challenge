@@ -92,7 +92,7 @@ O vídeo demonstrando a aplicação, as principais funcionalidades e a execuçã
 
 ## 🔗 Repositório
 
-https://github.com/seu-usuario/restaurante-tech-challenge
+https://github.com/vinichaves/restaurante-tech-challenge
 
 ---
 
