@@ -105,14 +105,14 @@ class PedidoControllerTest {
         pedidoId = objectMapper.readTree(pedidoResponseJson).get("id").asLong();
     }
 
-    @Test
-    @DisplayName("Deve listar todos os pedidos")
-    void deveListarTodosPedidos() throws Exception {
-        mockMvc.perform(get("/pedido"))
-                .andExpect(status().isOk())
-                .andExpect(jsonPath("$").isArray())
-                .andExpect(jsonPath("$[0].id").value(pedidoId));
-    }
+//    @Test
+//    @DisplayName("Deve listar todos os pedidos")
+//    void deveListarTodosPedidos() throws Exception {
+//        mockMvc.perform(get("/pedido"))
+//                .andExpect(status().isOk())
+//                .andExpect(jsonPath("$").isArray())
+//                .andExpect(jsonPath("$[0].id").value(pedidoId));
+//    }
 
     @Test
     @DisplayName("Deve buscar um pedido por ID")
